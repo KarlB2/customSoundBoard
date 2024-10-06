@@ -1,0 +1,16 @@
+##### Custom Soundboard Goals Document #####
+1. To create a website that will play sound files, and youtube videos all from one place
+2. Soundboard can be split up into catigories both visual and storage
+3. Sounds and videos can be added with user friendly UI
+4. Saves wave files into storage and automatical sorts the elements when website is booted back up
+5. Can handle .MP3 files and .wav files as well as youtube links which it displays within the website 
+6. User can drag and drop files from one catigory to the next and adding new catigories and sounds are as easy as clicking a button
+
+##### File Structure #####
+- static
+--- script.js
+- templates
+--- index.html
+- app.py
+- storage.json
+- venv

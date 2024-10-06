@@ -5,5 +5,7 @@ function handleButtonClick() {
         method: 'POST'
     }).then(response => {
         console.log('Button click recorded')
-    });
+    }).catch(error => {
+        console.log('Error')
+    })
 }
