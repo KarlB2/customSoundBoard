@@ -6,7 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <script src="script.js"></script>
+
+    <button id="testButton" onclick="handleButtonClick()">Click Me!</button>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
